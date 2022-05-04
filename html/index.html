@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- 
+        Forms ->
+            Sharing Of Info.
+
+            input
+                attributes ->
+                    1. placeholder
+                    2. name -> holds value of input
+                    3. value
+                    4. type
+
+
+                checkbox -> multiple selection
+                radio -> single selection
+
+
+                validations ->
+                    1. required
+                    2. pattern
+
+                        RegEx(Regular Expressions)
+
+                            1. a-z A-Z
+                            2. 0-9
+                            3. symbols
+
+                            []
+
+
+                            {min,max}
+                            {fix}
+                            {min,}
+
+
+                            1. PIN Code
+                                [1-8]{1}[0-9]{5}
+                            2. Mobile
+                            10 digit
+                            [6-9]{1}[0-9]{9}
+                            3. Pan Card
+                            10 Digits
+                                First 5 Capital Alph
+                                4 number
+                                1 Alpha
+                                [A-Z]{5}[0-9]{4}[A-Z]{1}
+
+                                username@domain.ext
+                        -->
+
+    <form >
+        <!-- Gender <br>
+        <input type="checkbox" name="g" value="m"> <label>Male</label>
+        <input type="checkbox" name="g" value="f"><label>Female</label>
+        <input type="checkbox" name="g" value="o"><label>Others</label>
+        <br> -->
+        <input type="text" pattern="[A-Z]{5}[0-9]{4}[A-Z]{1}" required>
+
+        <input type="submit">
+      
+    </form>
+  </body>
+</html>

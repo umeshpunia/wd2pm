@@ -1,0 +1,80 @@
+CSS ->
+    Cascading Style Sheet
+    Use To Design our layout
+    It is not a case sensitive
+    It has pair of property(p) and value(v)
+
+    Types ->
+        1. Inline
+
+            Those css which is applied on a tag using Style attribute
+
+
+            Example ->
+                <tag style="p:v;p:v;........"></tag>
+        2. Internal
+
+            Those css in which we put out style tag inside head tag and we write our css there
+
+            Example ->
+
+            <head>
+                <style>
+                    selector{
+                        p:v;
+                        .
+                        .
+                    }
+                    .
+                    .
+                    .
+                </style>
+            </head>
+
+
+
+
+        3. External
+
+            In css we create a new file with extension .css we write our css inside that file
+            and we link css file with our html
+            using link tag
+
+            Example ->
+
+                first.css
+                    selector{
+                        p:v;
+                        .
+                        .
+                    }
+                    .
+                    .
+                    .
+
+
+                index.html
+                    rel => relation
+                <head>
+                <link rel="stylesheet" href="location/filename.css" >
+                <head>
+
+
+        selectors ->
+            1. tagname
+            2. classname
+            3. id
+            4. *(universal selector -> apply on all)
+
+
+
+            /*
+
+            comsdkfjsdfk
+            */
+
+
+
+
+
+
