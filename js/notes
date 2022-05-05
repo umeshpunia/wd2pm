@@ -1,0 +1,77 @@
+JS ->
+    It is an object based client side scripting lang.
+    It is an interprator lang.
+    It is a case sensitive lang.
+    It has errors
+    It can not run directly
+    It is used to given funcationalities to the website
+    It is a loosely/dynamic type lang.
+
+    JS Engine
+
+        1. Chrome/Edge/Chro/Brave -> V8
+        2. Firefox -> Spider Monkey
+        3. I.E -> Chakra
+
+
+    Types ->
+        1. Internal
+            <script>
+                code
+            </script>
+        2. External (.js)
+
+            <script src=".js"></script>
+
+
+    How TO Print In JS ->
+    document.write('hello')
+    
+
+    Variables ->
+        A Temporary Memory Location where we store our value
+        and value may be vary
+
+        How To Create A Variable ->
+            var variablename=value
+
+            Rules Of variablename ->
+                1. never use number
+                2. never use space
+                3. never use symbols exception _
+    
+    Data Types ->
+
+        1. String -> '' or ""
+        2. Number -> 3 or 3.9
+        3. Boolean -> true(1) or false(0)
+        4. Array -> []
+        5. Object -> {}
+        6. undefined
+        7. null
+        8. NaN -> Not A Number
+
+
+    Arthematic Op. ->
+        +,-,*,/
+        % (modulas)
+        ** (exponential)
+
+    Comments ->
+
+        1. // single line
+        2. /* multi line  */
+
+    Comparison ->
+        >,<,>=,<=
+
+        == (Equal To -> Check value only)
+
+        === (Identical -> Check value and data type )
+
+
+    Logical Op ->
+        1. AND -> && -> if all true result true
+        2. OR -> || -> if one true result true
+        3. NOT -> ! -> Opposite
+ 
