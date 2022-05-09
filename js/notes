@@ -74,4 +74,103 @@ JS ->
         1. AND -> && -> if all true result true
         2. OR -> || -> if one true result true
         3. NOT -> ! -> Opposite
- 
+
+    
+    Concatenation ->
+        joining of multiple values
+        +
+
+
+    Increment / Decrement ->
+        Post -> next line
+        a++ => a+1
+        a-- => a-1
+
+        Pre -> same line
+        ++a => a+1
+
+
+
+    Conditions ->
+        single
+        1. if
+            Syntax ->
+                if(Comparison){
+                    statement
+                }
+
+        2. if else
+            Syntax ->
+                if(Comparison){
+                    statement
+                }else{
+                    statement
+                }
+
+        Multi
+        3. if else if
+
+            Syntax ->
+                if(Comparison){
+                    statement
+                }else if(Comparison1){
+                    statement1
+                }
+                .
+                .
+                else{
+                    statement
+                }
+
+
+        4. switch
+
+            Syntax ->
+
+                switch(expression){
+                    case Comparison:
+                    statement
+                    break
+                    case Comparison:
+                    statement
+                    break
+                    .
+                    .
+                    .
+                    default:
+                    statement
+                }
+
+
+    Loops ->
+        1. for
+            Syntax ->
+                for(init.;Comparison;inc/dec){
+                    statement
+                }
+
+        2. while
+
+            Syntax ->
+            init;
+            while(Comparison){
+                statement
+                inc/dec
+            }
+
+        3. do while
+
+            Syntax ->
+            init;
+            do{
+                statement
+                inc/dec
+            }while(Comparison)
+
+
+
+
+
+
+
+
