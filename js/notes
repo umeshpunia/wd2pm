@@ -169,6 +169,92 @@ JS ->
 
 
 
+    String Methods ->
+        1. length
+        2. toUpperCase()
+        3. toLowerCase()
+        4. search()
+        5. replace()
+        6. slice()
+        7. split() -> converts string into array
+        8. lastIndexOf()
+        9. indexOf()
+        10. charAt()
+        11. charCodeAt()
+        12. substr()
+        13. substring()
+        14. trim()
+        
+
+    Number Methods ->  
+        1. parseInt()
+        2. parseFloat()
+    
+    Math Methods ->
+        1. abs()
+        2. round()
+        3. floor()
+        4. ceil()
+        5. random()
+
+
+1. otp => 6 digit
+2. random string => 6 digit
+
+    Array Methods ->
+        1. length
+
+        LIFO -> Last In First Out
+        2. push()
+        3. pop()
+        
+        FIFO -> First In First Out
+        4. shift()
+        5. unshift()
+        
+        
+        
+        6. splice()
+        7. join()
+        8. concat()
+        9. delete
+        10. toString()
+
+BOM -> Browser/Box Object Model
+    Pop up boxes
+
+    1. alert()
+    2. confirm()
+    3. prompt()
+
+
+DOM ->
+    Document Object Model
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

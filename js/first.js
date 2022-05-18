@@ -1,5 +1,5 @@
-var a = 9;
-b = 2;
+// var a = 9;
+// b = 2;
 
 // 1. using 3rd/temp variable
 
@@ -102,18 +102,81 @@ b = 2;
 // }while(a>=50)
 
 
-for(i=0;i<5;i++){
-    for(j=0;j<5;j++){
-       if(i==0 || i==2){
-           document.write("*")
-       }else if(j==0 || j==4){
-           document.write("*")   
-       }else{
-           document.write("&nbsp;&nbsp;")
-       }
-    }
-    document.write("<br>")
-}
+// for(i=0;i<5;i++){
+//     for(j=0;j<5;j++){
+//        if(i==0 || i==2){
+//            document.write("*")
+//        }else if(j==0 || j==4){
+//            document.write("*")   
+//        }else{
+//            document.write("&nbsp;&nbsp;")
+//        }
+//     }
+//     document.write("<br>")
+// }
+
+// a="hello world kjsdff sdfsdfjhksdhfk94ejkfdjk"
+// // document.write(a.charCodeAt(0))
+
+// console.log(a.split(" kjsdff "))
+
+
+// filename="f.i.l.e.png"
+// fileArr=filename.split(".")
+// ext=fileArr[fileArr.length-1]
+
+
+// if(ext=="jpg" || ext=="png" || ext=="jpeg"){
+//     document.write("valid image")
+// }else{
+    
+//     document.write("not valid image")
+// }
+
+
+
+// a=parseFloat("5")
+// document.write(a+3)
+
+// a=Math.random()
+
+// document.write(a)
+
+
+// a=[6,9,4,5] 
+// a.pop()
+
+
+// a.push(10)
+
+
+// a.shift()
+// a.unshift("jkds")
+
+// delete a[1]
+
+
+// a.splice(1)
+// a.splice(1,1,"jk")
+// console.log(a)
+// document.write(a.join("-"))
+
+// b=["abc","xyz"]
+
+// c=a.concat(b)
+
+// console.log(a.toString())
+
+// a=new Date()
+
+
+// document.write(Date.now())
+
+
+// a=prompt('hello')
+// document.write(a)
+
+
 
 
 
