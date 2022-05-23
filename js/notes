@@ -240,9 +240,26 @@ DOM ->
 
 
 
+Storage =>
 
+    1. client Storage
+        1. cookies
+            name value and time pair
+            4kb
 
+        2. localStorage
+            5mb with no time limit
 
+            1. write
+                localStorage.setItem('name','value')
+            
+            2. read
+                localStorage.getItem('name')
+            
+            3. remove
+                localStorage.removeItem('name')
+
+    2. Physical Storage -> DB
 
 
 

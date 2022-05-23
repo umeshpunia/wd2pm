@@ -10,9 +10,12 @@
 </head>
 <body>
 
+    <h1 class="a">fsdfuisuif</h1>
 
-    <h1  id="z">Hllllll</h1>
-    <button onclick="changeVal()">Click</button>
+
+    <h1 class="a">89djkm,</h1>
+    <h1  class="a" id="z">Hllllll</h1>
+    <button class="a" onclick="changeVal()">Click</button>
 
 
     <script>
@@ -31,12 +34,15 @@
         // a.innerText="hello"
         
         
-        function changeVal(){
-            a=document.getElementById('z')
-            a.innerText="hello"
+        // function changeVal(){
+        //     a=document.getElementById('z')
+        //     a.innerText="hello"
             
-        }
+        // }
 
+        a=document.getElementsByClassName('a')
+        console.log(a)
+        a[1].style.color='red'
     </script>
     
 </body>
