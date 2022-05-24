@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <script>
+        // how to create promise
+        a=new Promise(function(res,rej){
+            if(5=="5"){
+                res('Equal')
+            }else{
+                rej('not equal')
+            }
+
+        })
+
+
+        // handling -> then => resolve, catch=> rejection
+
+        a.then(function(v){
+            console.log('promise resolved',v)
+        }).catch(function(err){
+            console.log('reject',err)
+        })
+
+        console.log('first')
+
+
+    </script>
+    
+</body>
+</html>

@@ -263,6 +263,12 @@ Storage =>
 
 
 
+Methods ->
+    1. GET
+    2. POST
+    3. PUT/PATCH
+    4. DELETE
+
 
 
 
