@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- 
+        form ->
+            sharing of info.
+
+            1. input
+                1. placeholder
+                2. name -> hold value
+                3. value
+                4. type
+
+            radio -> single 
+            checkbox -> multiple
+
+
+            1. keyboard -> placeholder
+            2. mouse -> value
+
+            Validations ->
+                1. required
+                2. pattern
+                    RegEx (Regular Expressions)
+                    1. Alphabets -> a-z A-Z
+                    2. Numbers -> 0-9
+                    3. Symbols
+
+                    []
+
+                    {fix}
+                    {min,max}
+                    {min,}
+
+
+                Example ->
+                    1. Pin code
+                        6 Digits
+                        [1-8]{1}[0-9]{5}
+
+                    2. Mobile
+                        10 Digits
+                        [6-9]{1}[0-9]{9} 
+
+                    3. PAN 
+                        10 Digits
+                        [A-Z]{5}[0-9]{4}[A-Z]{1}
+     -->
+
+     <form>
+        
+        <input type="text" required pattern="[a-zA-Z0-9]{5,10}">
+        
+        <input type="submit">
+     </form>
+
+
+
+</body>
+</html>
